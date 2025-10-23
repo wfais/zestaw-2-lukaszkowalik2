@@ -1,0 +1,41 @@
+{
+  "tests": [
+    {
+      "name": "ZADANIE1",
+      "setup": "pip install -r requirements.txt",
+      "run": "python -m pytest -q ZADANIE1/tests",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "ZADANIE2",
+      "setup": "pip install -r requirements.txt",
+      "run": "python -m pytest -q ZADANIE2/tests",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "ZADANIE3",
+      "setup": "pip install -r requirements.txt",
+      "run": "python -m pytest -q ZADANIE3/tests",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "ZADANIE4",
+      "setup": "pip install -r requirements.txt",
+      "run": "python -m pytest -q ZADANIE4/tests",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "ZADANIE5",
+      "setup": "pip install -r requirements.txt",
+      "run": "python -m pytest -q ZADANIE5/tests",
+      "timeout": 10,
+      "points": 10
+    }
+  ],
+  "version": 0
+}
+
